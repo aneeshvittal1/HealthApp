@@ -14,6 +14,8 @@
 		6DE037C4294D25E700792146 /* CommunityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037C3294D25E700792146 /* CommunityAppTests.swift */; };
 		6DE037CE294D25E700792146 /* CommunityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037CD294D25E700792146 /* CommunityAppUITests.swift */; };
 		6DE037D0294D25E700792146 /* CommunityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */; };
+		6DE037DD294D5A5C00792146 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DC294D5A5B00792146 /* HomeView.swift */; };
+		6DE037DF294D5AEB00792146 /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DE294D5AEB00792146 /* ServiceListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6DE037C9294D25E700792146 /* CommunityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE037CD294D25E700792146 /* CommunityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppUITests.swift; sourceTree = "<group>"; };
 		6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DE037DC294D5A5B00792146 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DE037DE294D5AEB00792146 /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				6DE037B2294D25E500792146 /* CommunityAppApp.swift */,
 				6DE037B4294D25E500792146 /* ContentView.swift */,
+				6DE037DE294D5AEB00792146 /* ServiceListView.swift */,
+				6DE037DC294D5A5B00792146 /* HomeView.swift */,
 				6DE037B6294D25E700792146 /* Assets.xcassets */,
 				6DE037B8294D25E700792146 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE037DF294D5AEB00792146 /* ServiceListView.swift in Sources */,
+				6DE037DD294D5A5C00792146 /* HomeView.swift in Sources */,
 				6DE037B5294D25E500792146 /* ContentView.swift in Sources */,
 				6DE037B3294D25E500792146 /* CommunityAppApp.swift in Sources */,
 			);
