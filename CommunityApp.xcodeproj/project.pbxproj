@@ -16,6 +16,7 @@
 		6DE037D0294D25E700792146 /* CommunityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */; };
 		6DE037DD294D5A5C00792146 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DC294D5A5B00792146 /* HomeView.swift */; };
 		6DE037DF294D5AEB00792146 /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DE294D5AEB00792146 /* ServiceListView.swift */; };
+		6DE037E1294D5D8300792146 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6DE037E0294D5D8300792146 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DE037DC294D5A5B00792146 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6DE037DE294D5AEB00792146 /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
+		6DE037E0294D5D8300792146 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		6DE037A6294D25E400792146 = {
 			isa = PBXGroup;
 			children = (
+				6DE037E0294D5D8300792146 /* .gitignore */,
 				6DE037B1294D25E500792146 /* CommunityApp */,
 				6DE037C2294D25E700792146 /* CommunityAppTests */,
 				6DE037CC294D25E700792146 /* CommunityAppUITests */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE037BA294D25E700792146 /* Preview Assets.xcassets in Resources */,
+				6DE037E1294D5D8300792146 /* .gitignore in Resources */,
 				6DE037B7294D25E700792146 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
