@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D7B388B295163010034AC35 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B388A295163000034AC35 /* BaseView.swift */; };
+		6D7B388D295163BF0034AC35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B388C295163BF0034AC35 /* MapView.swift */; };
+		6D7B388F295163C80034AC35 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B388E295163C80034AC35 /* ProfileView.swift */; };
+		6D7B3891295163D90034AC35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B3890295163D90034AC35 /* HomeView.swift */; };
 		6DE037B3294D25E500792146 /* CommunityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037B2294D25E500792146 /* CommunityAppApp.swift */; };
-		6DE037B5294D25E500792146 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037B4294D25E500792146 /* ContentView.swift */; };
 		6DE037B7294D25E700792146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE037B6294D25E700792146 /* Assets.xcassets */; };
 		6DE037BA294D25E700792146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE037B9294D25E700792146 /* Preview Assets.xcassets */; };
 		6DE037C4294D25E700792146 /* CommunityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037C3294D25E700792146 /* CommunityAppTests.swift */; };
 		6DE037CE294D25E700792146 /* CommunityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037CD294D25E700792146 /* CommunityAppUITests.swift */; };
 		6DE037D0294D25E700792146 /* CommunityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */; };
-		6DE037DD294D5A5C00792146 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DC294D5A5B00792146 /* HomeView.swift */; };
-		6DE037DF294D5AEB00792146 /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE037DE294D5AEB00792146 /* ServiceListView.swift */; };
 		6DE037E1294D5D8300792146 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6DE037E0294D5D8300792146 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D7B388A295163000034AC35 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6D7B388C295163BF0034AC35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6D7B388E295163C80034AC35 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6D7B3890295163D90034AC35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		6DE037AF294D25E500792146 /* CommunityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE037B2294D25E500792146 /* CommunityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppApp.swift; sourceTree = "<group>"; };
-		6DE037B4294D25E500792146 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DE037B6294D25E700792146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE037B9294D25E700792146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DE037BF294D25E700792146 /* CommunityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,8 +51,6 @@
 		6DE037C9294D25E700792146 /* CommunityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE037CD294D25E700792146 /* CommunityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppUITests.swift; sourceTree = "<group>"; };
 		6DE037CF294D25E700792146 /* CommunityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6DE037DC294D5A5B00792146 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		6DE037DE294D5AEB00792146 /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
 		6DE037E0294D5D8300792146 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				6DE037B2294D25E500792146 /* CommunityAppApp.swift */,
-				6DE037B4294D25E500792146 /* ContentView.swift */,
-				6DE037DE294D5AEB00792146 /* ServiceListView.swift */,
-				6DE037DC294D5A5B00792146 /* HomeView.swift */,
+				6D7B388C295163BF0034AC35 /* MapView.swift */,
+				6D7B3890295163D90034AC35 /* HomeView.swift */,
+				6D7B388E295163C80034AC35 /* ProfileView.swift */,
+				6D7B388A295163000034AC35 /* BaseView.swift */,
 				6DE037B6294D25E700792146 /* Assets.xcassets */,
 				6DE037B8294D25E700792146 /* Preview Content */,
 			);
@@ -267,9 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE037DF294D5AEB00792146 /* ServiceListView.swift in Sources */,
-				6DE037DD294D5A5C00792146 /* HomeView.swift in Sources */,
-				6DE037B5294D25E500792146 /* ContentView.swift in Sources */,
+				6D7B3891295163D90034AC35 /* HomeView.swift in Sources */,
+				6D7B388B295163010034AC35 /* BaseView.swift in Sources */,
+				6D7B388D295163BF0034AC35 /* MapView.swift in Sources */,
+				6D7B388F295163C80034AC35 /* ProfileView.swift in Sources */,
 				6DE037B3294D25E500792146 /* CommunityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CommunityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = G56G532A9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CommunityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = G56G532A9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -484,6 +490,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56G532A9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -503,6 +510,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56G532A9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
