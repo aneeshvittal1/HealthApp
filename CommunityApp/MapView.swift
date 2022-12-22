@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
+    @State private var region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 38.845765, longitude: -77.259021), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Map Page"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Map(coordinateRegion: $region)
+                .frame(maxWidth: 450, maxHeight: 550)
+        }
     }
 }
 
