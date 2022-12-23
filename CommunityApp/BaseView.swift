@@ -18,10 +18,10 @@ struct BaseView: View {
                 .tabItem{
                     Label("Map", systemImage: "map")
                 }
-            ProfileView()
-                .tabItem{
-                    Label("Profile", systemImage: "person")
-                }
+//            ProfileView()
+//                .tabItem{
+//                    Label("Profile", systemImage: "person")
+//                }
         }
     }
 }
