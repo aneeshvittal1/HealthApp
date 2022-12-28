@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Test",
+        "type": "Comm",
+        "address": "ss",
+        "sfIcon": "house",
+        "coordinates": {
+            "latitude": 23.4455,
+            "longitude": 45.9999
+        }
+    },
+
+    {
+        "name": "Test2",
+        "type": "Comm",
+        "address": "aaaa",
+        "sfIcon": "house.fill",
+        "coordinates": {
+            "latitude": 15.4455,
+            "longitude": 45.9999
+        }
+    }
+]
