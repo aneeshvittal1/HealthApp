@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BaseView: View {
+    
     var body: some View {
         TabView{
             HomeView()
@@ -22,7 +23,9 @@ struct BaseView: View {
 //                .tabItem{
 //                    Label("Profile", systemImage: "person")
 //                }
+            
         }
+        
     }
 }
 

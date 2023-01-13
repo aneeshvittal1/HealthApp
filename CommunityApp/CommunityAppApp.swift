@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CommunityAppApp: App {
+    @StateObject var mapState = MapStateManager(showCommCenters: false, showTestCenters: false, showVaccCenters: false, showShelterCenters: false)
     var body: some Scene {
         WindowGroup {
-            BaseView()
+            BaseView().environmentObject(mapState)
         }
     }
 }

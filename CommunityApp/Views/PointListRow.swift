@@ -33,7 +33,7 @@ struct PointListRow: Identifiable, View {
                     HStack(spacing: 15){
                         Image(systemName: iconName)
                         Text(name)
-                    }.frame(width: .infinity, height: 30)
+                    }.frame(height: 30)
                     Spacer()
                     HStack(spacing: 10){
                         Text("\(dist, specifier: "%.1f") mi")

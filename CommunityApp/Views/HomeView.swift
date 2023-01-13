@@ -21,11 +21,16 @@ struct MenuButton: ButtonStyle{
 
 
 struct HomeView: View {
+    @State private var currentLoc = LocationManager()
+    
     var body: some View {
+        
         NavigationStack{
+            
             ZStack{
                 ScrollView(showsIndicators:false){
                     VStack(spacing: 10){
+                        
                         Spacer()
                         Image("PNG logo")
                             .resizable()
@@ -52,19 +57,19 @@ struct HomeView: View {
                             HStack{
                                 VStack(spacing: 25){ //Left Column
                                     NavigationLink{
-                                        ProfileView()
+                                        WelfareView()
                                     }label: {
                                         Text("Welfare Aid")
                                     }.buttonStyle(MenuButton())
                                     
                                     NavigationLink{
-                                        ProfileView()
+                                        TransportView()
                                     }label: {
                                         Text("Transportation")
                                     }.buttonStyle(MenuButton())
                                     
                                     NavigationLink{
-                                        ProfileView()
+                                        //MapViewAssistant()
                                     }label: {
                                         Text("Substance Abuse")
                                     }.buttonStyle(MenuButton())
@@ -120,11 +125,8 @@ struct HomeView: View {
                 }
             }
         }
-        }
-            
-            
-            
-        }
+    }
+}
         
 
 struct HomeView_Previews: PreviewProvider {

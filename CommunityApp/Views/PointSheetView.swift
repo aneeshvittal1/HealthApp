@@ -30,7 +30,7 @@ struct PointSheetView: View {
                     .foregroundColor(colorScheme == .dark ? .black : .white)
             }
             VStack(spacing: 15){
-                Text("\(pointName)").font(Font.system(size: deviceWidth/17))
+                Text("\(pointName)").font(Font.system(size: deviceWidth/17)).multilineTextAlignment(.center)
                 Text("\(dist, specifier: "%.1f") mi").font(Font.system(size: deviceWidth/30))
             }
             
