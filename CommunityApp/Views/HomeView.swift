@@ -69,7 +69,7 @@ struct HomeView: View {
                                     }.buttonStyle(MenuButton())
                                     
                                     NavigationLink{
-                                        //MapViewAssistant()
+                                        SubstanceAbuseView()
                                     }label: {
                                         Text("Substance Abuse")
                                     }.buttonStyle(MenuButton())

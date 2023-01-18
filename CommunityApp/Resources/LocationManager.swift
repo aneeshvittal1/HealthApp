@@ -11,6 +11,8 @@ import MapKit
 
 final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate{
     
+    static let shared = LocationManager()
+    
     @Published var region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 38.845861, longitude: -77.306246), span: MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03))
     
     @Published var curCoordinate = CLLocationCoordinate2D(latitude: 38.845861, longitude: -77.306246)
@@ -21,6 +23,7 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
         if CLLocationManager.locationServicesEnabled(){
             locManager = CLLocationManager()
             locManager!.delegate = self
+            
         }
         else{
             print("turn on location services")

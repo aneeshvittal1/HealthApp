@@ -12,13 +12,9 @@ import MapKit
 
 struct TransportView: View {
     
-    @State private var req = RequestModule()
-    
     var body: some View {
         VStack{
-            Button("Click"){
-                req.getVaccines()
-            }
+            Text("Transport Page")
         }
     }
 }

@@ -27,10 +27,16 @@ struct ToggleButton: ToggleStyle{
 
 
 struct MapViewAssistant: View{
-    @StateObject private var location = LocationManager()
-    @State private var data = Points()
+    @EnvironmentObject var location : LocationManager
+    @State private var req = RequestModule()
+    //rm.getVaccines()
+    let data = Points.shared
     
     @EnvironmentObject var state : MapStateManager
+    
+    init(){
+        self.req.getVaccines()
+    }
     
     var body: some View {
         ZStack(alignment: .top){
@@ -82,6 +88,7 @@ struct MapViewAssistant: View{
                 }
                 Spacer()
             }
+            
         }
     }
 }
@@ -89,5 +96,6 @@ struct MapViewAssistant: View{
 struct MapViewAssistant_Previews: PreviewProvider {
     static var previews: some View {
         MapViewAssistant().environmentObject(MapStateManager(showCommCenters: false, showTestCenters: false, showVaccCenters: false, showShelterCenters: false))
+            .environmentObject(LocationManager())
     }
 }

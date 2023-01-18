@@ -16,12 +16,14 @@ struct PointListRow: Identifiable, View {
     var name: String
     var dist: Double
     var deviceWidth: CGFloat
+    var address: String
     
-    init(iconName: String, name: String, dist: Double, deviceWidth: CGFloat){
+    init(iconName: String, name: String, dist: Double, deviceWidth: CGFloat, address: String){
         self.iconName = iconName
         self.name = name
         self.dist = dist
         self.deviceWidth = deviceWidth
+        self.address = address
     }
     
     
@@ -36,13 +38,19 @@ struct PointListRow: Identifiable, View {
                     }.frame(height: 30)
                     Spacer()
                     HStack(spacing: 10){
-                        Text("\(dist, specifier: "%.1f") mi")
+                        if Int(dist) > 0{
+                            Text("\(dist, specifier: "%.1f") mi")
+                        }
+                        else{
+                            Text("\(dist, specifier: "%.2f") mi")
+                        }
+                        
                         Button(action: {
                             showingSheet.toggle()
                         }) {
                             Image(systemName: "arrow.forward.circle.fill")
                         }.padding(.trailing).sheet(isPresented: $showingSheet) {
-                            PointSheetView(pointName: name, icon: iconName, dist: dist, deviceWidth: deviceWidth)
+                            PointSheetView(pointName: name, icon: iconName, dist: dist, deviceWidth: deviceWidth, address:address)
                         }
                     }
                 }
@@ -55,6 +63,6 @@ struct PointListRow: Identifiable, View {
 
 struct PointListRow_Previews: PreviewProvider {
     static var previews: some View {
-        PointListRow(iconName: "person", name: "Community Park", dist: 2.0, deviceWidth: 828)
+        PointListRow(iconName: "person", name: "Community Park", dist: 0.398, deviceWidth: 828, address: "")
     }
 }

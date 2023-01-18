@@ -12,8 +12,8 @@ struct WelfareView: View{
     
     @StateObject private var manager = LocationManager()
     var body: some View {
-        Map(coordinateRegion: $manager.region).onAppear{
-            manager.checkIfLocationServiceEnabled()
+        VStack{
+            Text("Welfare Page")
         }
     }
 }
